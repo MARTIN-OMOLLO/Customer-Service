@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+  
+}
+.header li{
+    list-style: none;
+    padding: 0px 5px;
+    margin-left: 10%;
+    padding-top: 25px;
+}
+.header li button{
+    background-color: blue;
+}
+span{ 
+    color: blue;
+}
+.World{
+    background-image: url(images/1.png);
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    color: white;
+}
+.Box{
+    display: flex;
+    width: 100%;
+    height: 250px; 
+    justify-content: space-around;
+    margin-right: 28%;
+}
+.blue{
+    background-color: blue;
+    color: cornsilk;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.but{
+   background-color:rgba(0,0,0, 1%);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   border:solid white;
+   color: whitesmoke;
+   
+}
+.Touch{
+    text-align: center;
+    background-image:url(images/4.png);
+    background-size: cover;
+    height: 500px;
+
+}
+.us{
+    font-size: large;
+    font-weight: 50;
+}
+.del{
+  font-size: larger;  
+  font-weight: 100;
+}
+.services{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+.our{
+  text-align: center; 
+  font-size: xx-large;
+}
+.one{
+    box-shadow: -1px 4px 12px 1px rgba(120,108,108,0.35);
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3272e7;
+}
+
+
+.form, .form form {
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    background-color: cornsilk;
+    padding:20px;
+}
